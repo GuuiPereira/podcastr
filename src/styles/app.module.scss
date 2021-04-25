@@ -1,0 +1,16 @@
+
+@media(max-width: 920px){
+  .appWrapper {
+    flex-direction: column;
+    height: calc(100vh - 300px);
+    overflow: auto;
+  }
+}
+.appWrapper{
+  display:flex;
+
+  main {
+    flex:1;
+  }
+
+}
